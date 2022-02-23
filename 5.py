@@ -33,3 +33,16 @@ myList = ['A',1,1.36,sum,ImportError] # list
 # [['A',1,1.36,sum,ImportError]]
 print(list(myList))
 print([myList])
+
+# List access
+
+# dummy = ['AAPL','MSFT','NVDA']
+# # dummy[<index>] 
+# # index must be int
+
+# x = dummy[-1]
+# print(x)
+
+# timeframe = '1m'
+# # m
+# print(timeframe[-1])

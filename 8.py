@@ -24,3 +24,10 @@ myList = ['Alice','Bob','Cairo','Denis']
 myScore = [20,56,78,9]
 
 # My score with Alice is 20 %
+
+# 1st soln
+# for i,_ in enumerate(myList):
+# 	print(myList[i],myScore[i])
+
+# for i,j in zip(myList,myScore):
+# 	print(i,j)

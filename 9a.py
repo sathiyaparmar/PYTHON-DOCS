@@ -7,7 +7,7 @@ noOfPeople = 73
 # UK:2_F
 
 t = []
-for i in range(1,noOfPeople+1):
+for i in range(1,noOfPeople+1,2):
 	t.append(f"{country}:{i}_M")
-	t.append(f"{country}:{i}_F")
+	t.append(f"{country}:{i+1}_F")
 print(t)

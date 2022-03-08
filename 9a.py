@@ -10,4 +10,4 @@ t = []
 for i in range(1,noOfPeople+1,2):
 	t.append(f"{country}:{i}_M")
 	t.append(f"{country}:{i+1}_F")
-print(t)
+print(t)=

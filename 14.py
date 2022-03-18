@@ -12,7 +12,13 @@ settings = {
 }
 
 # How many watchlist are there
-print(len(settings['watchlist']))
+# print(len(settings['watchlist']))
 
 # What is tsla's quantity
-symbol = 'TSLA'
+symbol = 'MRNA'
+w = settings['watchlist']
+for i in w:
+	if symbol == i['symbol']:
+		print(i['quantity'])
+		break
+

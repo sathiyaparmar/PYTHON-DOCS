@@ -25,3 +25,11 @@ trades = {
 	# aapl pl = (ex-en)*q
 # Find percent profit
 	# pr = (final-initial)/initial*100
+
+netPL = 0
+
+for i, val in trades.items():
+	x = (val['exitprice'] - val['entryprice'])*val['quantity']
+	netPL += x
+
+print(netPL)

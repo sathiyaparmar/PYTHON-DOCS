@@ -5,5 +5,8 @@ myDict = {
 }
 
 # python 3.6 >=
-for i,j in myDict.items(): # .keys(), .values(), .items()
-	print(i,j)
+# for i,j in myDict.items(): # .keys(), .values(), .items()
+# 	print(i,j)
+
+# for k,v in myDict.items():
+# 	print(k,v)

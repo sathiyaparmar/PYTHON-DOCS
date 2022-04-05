@@ -20,6 +20,11 @@ students = {
 	},
 }
 
+sd = os.path.join(currentDirectoryPath,'student')
+print(sd)
+
+os.mkdir(sd)
+
 # os
 # json
 # time

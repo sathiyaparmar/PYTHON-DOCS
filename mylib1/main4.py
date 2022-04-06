@@ -18,3 +18,13 @@ def login(username: str, password: str) -> bool:
 # 	print("login successful")
 # else:
 # 	print("invalid credentials")
+
+
+## write or create a file
+# newFilePath = os.path.join(os.path.dirname(__file__),'dummy.json')
+
+# data = {f"key_{k}":k for k in range(500)}
+# print(data)
+
+# with open(newFilePath,'w') as f:
+# 	json.dump(data,f,indent=4)
